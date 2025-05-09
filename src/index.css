@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 70px;
+    background-color: rgba(15, 4, 88, 0.913);
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    margin: 13px;
+    font-size: 19px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main {
+    text-align: center;
+    width: 50%;
+    line-height: 20px;
+}
+
+.box {
+    display: flex;
+    padding: 8%;
+}
+
+.pic {
+    width: 50%;
+    text-align: center;
+}
+
+img {
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+button {
+    font-weight: bold;
+    padding: 12px;
+    width: 140px;
+    background-color: rgba(18, 5, 101, 0.913);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.container{
+    justify-content: center;
+    width: 360px;
+    margin-left: 33%;
+    margin-top: 5%;
+   padding: 20px;
+   background-image: url(public/bg.png);
+   background-repeat: no-repeat;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+input[type=text], select{
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select{
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.header{
+    width: 95%;
+    padding: 1px 20px;
+}
+.header h1{
+    padding-bottom: 20px;
+   
+}
+
